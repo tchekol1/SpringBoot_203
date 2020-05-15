@@ -11,7 +11,7 @@ public class HomeController {
     @GetMapping("/employeeform")
     //Adding a new instance of the Employee class to the model
     public String loadFormPage(Model model) {
-       model.addAttribute("employee1", new Employee());
+       model.addAttribute("employee", new Employee());
        return "employeeform";
 
     }
