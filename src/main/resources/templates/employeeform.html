@@ -2,10 +2,10 @@
 <html lang="en" xmlns:th="http:www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Employee</title>
 </head>
 <body>
-<form  action="#" th:action="@{/employeeform}"th:object="${employee}" method="post">
+<form  action="#" th:action="@{/employeeform}"th:object="${employee1}" method="post">
     First Name: <input type="text" th:field="*{Fname}"/><br />
     Last Name: <input type="text" th:field="*{Lname}"/><br />
     SSN: <input type="number" th:field="*{SSN}"/><br />

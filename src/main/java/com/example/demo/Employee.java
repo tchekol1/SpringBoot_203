@@ -1,6 +1,7 @@
 package com.example.demo;
 
 public class Employee {
+    private long id;
     private String Fname;
     private String Lname;
     private Long SSN;
